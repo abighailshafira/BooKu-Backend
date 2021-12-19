@@ -25,6 +25,12 @@ Route::post('/transaksi', 'App\Http\Controllers\TransaksiController@store');
 Route::get('/list/transaksi', 'App\Http\Controllers\TransaksiController@index');
 Route::get('/delete/transaksi/{id}', 'App\Http\Controllers\TransaksiController@delete');
 
+Route::get('/chart/transaksi/{id_user}', 'App\Http\Controllers\TransaksiController@chart');
+
+Route::group(['middleware' => ['auth:sanctum']], function() {
+    Route::post('/user/logout', [AuthController::class, 'logout']);
+});
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
