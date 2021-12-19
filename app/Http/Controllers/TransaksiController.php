@@ -34,21 +34,6 @@ class TransaksiController extends Controller
             'user_id' => $validate['user_id'],
         ]);
 
-
-        // $product = Product::create([
-        //     'name' => $validate['name'],
-        //     'slug' => Str::slug($validate['name'], '-'),
-        //     // 'image' => $validate['image'],
-        //     'image' => $image->hashName(),
-        //     'price' => $validate['price'],
-        //     'stock' => $validate['stock'],
-        //     'specification' => $validate['specification'],
-        //     'function' => $validate['function'],
-        //     'utility' => $validate['utility'],
-        //     'commodity' => $validate['commodity']
-            
-        // ]);
-
         $response = [
             'message' => 'Create Transaksi Successful',
             'data' => $transaksi,
