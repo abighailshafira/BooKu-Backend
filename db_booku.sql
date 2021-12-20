@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2021 at 04:50 AM
+-- Generation Time: Dec 20, 2021 at 10:40 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -165,7 +165,17 @@ INSERT INTO `personal_access_tokens` (`id`, `tokenable_type`, `tokenable_id`, `n
 (67, 'App\\Models\\User', 8, 'usertoken', 'dac8a86214186678602cd4e69b9cf7ee7b613ee856aeb544362c4ec07e7065fa', '[\"*\"]', NULL, '2021-12-19 20:05:42', '2021-12-19 20:05:42'),
 (68, 'App\\Models\\User', 8, 'usertoken', 'c5e181551b52feff37df405ae4cb20595d2554fff7e9976373db3aa71d5be4be', '[\"*\"]', NULL, '2021-12-19 20:05:57', '2021-12-19 20:05:57'),
 (69, 'App\\Models\\User', 9, 'usertoken', '6ed4719971755d1b4c9707f16985bd70a4c37acaa088c1ac8ebea55d0f6253c6', '[\"*\"]', NULL, '2021-12-19 20:25:50', '2021-12-19 20:25:50'),
-(70, 'App\\Models\\User', 9, 'usertoken', 'f3712a11c5a7eadc2566697d6836e1c5be69c8931c1c41646f0a69fe55d78df5', '[\"*\"]', NULL, '2021-12-19 20:26:05', '2021-12-19 20:26:05');
+(70, 'App\\Models\\User', 9, 'usertoken', 'f3712a11c5a7eadc2566697d6836e1c5be69c8931c1c41646f0a69fe55d78df5', '[\"*\"]', NULL, '2021-12-19 20:26:05', '2021-12-19 20:26:05'),
+(71, 'App\\Models\\User', 1, 'usertoken', '3a27d76d634f53adc01256493abbf33e1b6ac532e004a313b307796d5484574b', '[\"*\"]', NULL, '2021-12-19 21:02:41', '2021-12-19 21:02:41'),
+(72, 'App\\Models\\User', 1, 'usertoken', '564fe582f3d8afe8314ae3934b3191fc277ce49e47f0f1e0d8f5b360b7cc19f9', '[\"*\"]', NULL, '2021-12-19 22:31:41', '2021-12-19 22:31:41'),
+(73, 'App\\Models\\User', 1, 'usertoken', '716e94c676eecdc36d27b852a30d489a589f83a14eecaf7f8a12967e4c90478b', '[\"*\"]', NULL, '2021-12-19 22:47:30', '2021-12-19 22:47:30'),
+(74, 'App\\Models\\User', 1, 'usertoken', '2b29736996b46c6faf2bc544d704a253736aac98eb735a9ea2cd7e6a8ad0c8d5', '[\"*\"]', NULL, '2021-12-19 23:13:33', '2021-12-19 23:13:33'),
+(75, 'App\\Models\\User', 1, 'usertoken', 'bf39f3484fb8260f0a24a53037130d46b371fa1cdc624ca34aa6102dd11b37c4', '[\"*\"]', NULL, '2021-12-20 00:36:01', '2021-12-20 00:36:01'),
+(76, 'App\\Models\\User', 1, 'usertoken', 'd5f58abc1074caa98fa5aa6d4d9cdca4672bc4e57b08a6585c7db5553d02c57e', '[\"*\"]', NULL, '2021-12-20 00:59:12', '2021-12-20 00:59:12'),
+(77, 'App\\Models\\User', 1, 'usertoken', '1ecdcf6e92ca21d8edc3d4800c3ee4bd4bce827387d7c846dd96020f409f0c05', '[\"*\"]', NULL, '2021-12-20 01:03:35', '2021-12-20 01:03:35'),
+(78, 'App\\Models\\User', 1, 'usertoken', '531e59cf702c2a22ed5094913a586192d2287c2d925d85e0c580f56f9df647af', '[\"*\"]', NULL, '2021-12-20 01:40:26', '2021-12-20 01:40:26'),
+(79, 'App\\Models\\User', 1, 'usertoken', 'c2f28f19c1d37aad18ea29e3b5191b4be8dfd1ebce1bcbfd979f506aa109f806', '[\"*\"]', NULL, '2021-12-20 02:08:36', '2021-12-20 02:08:36'),
+(80, 'App\\Models\\User', 1, 'usertoken', '8b3babecbc49984269cb6f3ffe8311beaa79a3e5e5f17e92f40ef15f15c95eba', '[\"*\"]', NULL, '2021-12-20 02:24:40', '2021-12-20 02:24:40');
 
 -- --------------------------------------------------------
 
@@ -187,21 +197,11 @@ CREATE TABLE `transaksi` (
 --
 
 INSERT INTO `transaksi` (`id`, `tgl_transaksi`, `pemasukan`, `pengeluaran`, `keterangan`, `user_id`) VALUES
-(12, '2021-01-05', 1000000, 9, 'hoho', 1),
-(13, '2021-01-06', 10000000, 21, 'abcd', 1),
-(14, '2021-01-11', 9090000, 191, 'abcd', 1),
-(15, '2021-01-13', 700000, 1234, 'Terserah', 1),
-(16, '2021-01-15', 900000, 100, 'abcd', 1),
-(17, '2021-01-19', 220000, 1, 'abcd', 1),
-(18, '2021-01-21', 280000, 10, 'a', 1),
-(19, '2021-01-26', 1000000, 8, 'abcd', 1),
-(20, '2021-02-02', 200000, 100000, 'kobe', 1),
-(21, '2021-02-17', 100000000, 1000, 'abcd', 1),
-(22, '2021-03-10', 100000, 1000, 'kokoeue', 1),
-(23, '2021-03-24', 100000, 1000, 'kokoeue', 1),
-(24, '2021-04-24', 100000, 1000, 'kokoeue', 1),
-(25, '2021-04-24', 100000, 1000, 'kokoeue', 1),
-(26, '2021-05-18', 100000, 1000, 'piutang', 1);
+(37, '2021-09-17', 5000000, 0, 'Modal usaha', 1),
+(38, '2021-10-01', 0, 4500000, 'Belanja kebutuhan warung', 1),
+(39, '2021-10-01', 0, 30000, 'Ongkos', 1),
+(40, '2021-11-19', 50000, 0, 'Laba', 1),
+(41, '2021-11-20', 135000, 0, 'Laba', 1);
 
 -- --------------------------------------------------------
 
@@ -224,11 +224,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'udin@gmail.com', NULL, '$2y$10$qjwZuc25XnxDYvFwae8TAuO.hhHiI1AdK32Uf5buPcyZq2NSuKtii', NULL, '2021-12-13 11:19:51', '2021-12-13 11:19:51'),
-(2, 'ijel@gmail.com', NULL, '$2y$10$VYHE91hfsoR.toFnie/0..Ex4rnh.JKg21MNTjDo.cGPKbWFfnCrm', NULL, '2021-12-15 13:05:14', '2021-12-15 13:05:14'),
-(4, 'kaka@gmail.com', NULL, '$2y$10$Hs1Pd65bxSeaAc67vQzSkeQWLD63csfh2jWQATkLS/f7u280KpR5y', NULL, '2021-12-15 13:22:30', '2021-12-15 13:22:30'),
-(8, 'cicici@gmail.com', NULL, '$2y$10$c9Vkh1V.Gay9vQOsPrtl5OcLcBReTn.oFW219VHz5ddye.nbPrI.O', NULL, '2021-12-19 20:05:41', '2021-12-19 20:05:41'),
-(9, 'abighailshafira@gmail.com', NULL, '$2y$10$cf6/U6x8/PNYMsuPmjmHruxoebVBlSo3anvcDVfKYhU7rGzM/LyTO', NULL, '2021-12-19 20:25:49', '2021-12-19 20:25:49');
+(1, 'dicoding@gmail.com', NULL, '$2y$10$qjwZuc25XnxDYvFwae8TAuO.hhHiI1AdK32Uf5buPcyZq2NSuKtii', NULL, '2021-12-13 11:19:51', '2021-12-13 11:19:51');
 
 --
 -- Indexes for dumped tables
@@ -294,13 +290,13 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `personal_access_tokens`
 --
 ALTER TABLE `personal_access_tokens`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
 
 --
 -- AUTO_INCREMENT for table `transaksi`
 --
 ALTER TABLE `transaksi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
 -- AUTO_INCREMENT for table `users`
