@@ -79,7 +79,7 @@ class TransaksiController extends Controller
 
         $sum_bulan4 = DB::table('transaksi')->where('user_id',$id_user)->whereMonth('tgl_transaksi', '04')->get();
         $total4 = 0;
-        foreach($sum_bulan2 as $row){
+        foreach($sum_bulan4 as $row){
             $p1 += $row->pemasukan;
             $p2 += $row->pengeluaran;
             $result = $row->pemasukan - $row->pengeluaran;
