@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2021 at 10:40 AM
+-- Generation Time: Dec 23, 2021 at 02:44 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -175,7 +175,65 @@ INSERT INTO `personal_access_tokens` (`id`, `tokenable_type`, `tokenable_id`, `n
 (77, 'App\\Models\\User', 1, 'usertoken', '1ecdcf6e92ca21d8edc3d4800c3ee4bd4bce827387d7c846dd96020f409f0c05', '[\"*\"]', NULL, '2021-12-20 01:03:35', '2021-12-20 01:03:35'),
 (78, 'App\\Models\\User', 1, 'usertoken', '531e59cf702c2a22ed5094913a586192d2287c2d925d85e0c580f56f9df647af', '[\"*\"]', NULL, '2021-12-20 01:40:26', '2021-12-20 01:40:26'),
 (79, 'App\\Models\\User', 1, 'usertoken', 'c2f28f19c1d37aad18ea29e3b5191b4be8dfd1ebce1bcbfd979f506aa109f806', '[\"*\"]', NULL, '2021-12-20 02:08:36', '2021-12-20 02:08:36'),
-(80, 'App\\Models\\User', 1, 'usertoken', '8b3babecbc49984269cb6f3ffe8311beaa79a3e5e5f17e92f40ef15f15c95eba', '[\"*\"]', NULL, '2021-12-20 02:24:40', '2021-12-20 02:24:40');
+(80, 'App\\Models\\User', 1, 'usertoken', '8b3babecbc49984269cb6f3ffe8311beaa79a3e5e5f17e92f40ef15f15c95eba', '[\"*\"]', NULL, '2021-12-20 02:24:40', '2021-12-20 02:24:40'),
+(81, 'App\\Models\\User', 1, 'usertoken', '71a172e92ea0d3bb39041f3b1ec27611a2828e44f7c2ee01c866a4383a79b35c', '[\"*\"]', NULL, '2021-12-20 03:04:01', '2021-12-20 03:04:01'),
+(82, 'App\\Models\\User', 1, 'usertoken', '235abe6d901569c9d806393dc9e41991e05359b89880bff71bc31ddd7393f258', '[\"*\"]', NULL, '2021-12-20 03:06:24', '2021-12-20 03:06:24'),
+(83, 'App\\Models\\User', 1, 'usertoken', '774aae86154743a0225956b1fa0c3e2717917bdb4187f0426f9ea1882d5bda36', '[\"*\"]', NULL, '2021-12-20 03:12:13', '2021-12-20 03:12:13'),
+(84, 'App\\Models\\User', 1, 'usertoken', '2cf96d6b6b67c98b2122bd4450f285287b3c884e359a06c5427327cfeb012c5b', '[\"*\"]', NULL, '2021-12-20 03:45:45', '2021-12-20 03:45:45'),
+(85, 'App\\Models\\User', 1, 'usertoken', '12eb9e59309586b80709bcaa000eb479b8a8f81f94964741d24f4313a2c01608', '[\"*\"]', NULL, '2021-12-20 05:35:04', '2021-12-20 05:35:04'),
+(86, 'App\\Models\\User', 1, 'usertoken', '474b7c31215965fb5f0df86eb765973df742ddd672dcb4d853834d0f14eec6af', '[\"*\"]', NULL, '2021-12-20 05:43:07', '2021-12-20 05:43:07'),
+(87, 'App\\Models\\User', 1, 'usertoken', 'b89d484cfa374d4237e3490a89a1967e9208fe4cf1c1af2673d39346d43ca871', '[\"*\"]', NULL, '2021-12-20 05:43:44', '2021-12-20 05:43:44'),
+(88, 'App\\Models\\User', 10, 'usertoken', '7bc2cb0e2068114b23b9124c48c9d55d5a61500a063b3b02f0a3266b9530dbde', '[\"*\"]', NULL, '2021-12-20 05:45:43', '2021-12-20 05:45:43'),
+(89, 'App\\Models\\User', 10, 'usertoken', 'cf7f4eb3be79934a5b1dbe95e4ca1f87506e6611c578fb98a34ec3690ba3ffd1', '[\"*\"]', NULL, '2021-12-20 05:46:08', '2021-12-20 05:46:08'),
+(90, 'App\\Models\\User', 1, 'usertoken', '38ea29fd1e6ea4dd5dddf25224bce9c7c49eae01f70d0480449a5af03b56ada6', '[\"*\"]', NULL, '2021-12-20 05:51:17', '2021-12-20 05:51:17'),
+(91, 'App\\Models\\User', 1, 'usertoken', '42d022794517e89f0bbe8d45736c02dfaa8149ab79db2ae817cc4125f6cc7587', '[\"*\"]', NULL, '2021-12-20 05:53:06', '2021-12-20 05:53:06'),
+(92, 'App\\Models\\User', 11, 'usertoken', 'a6bdc12118355812fc6b86811e58f2e54e3055983fa41799b61814a88576a867', '[\"*\"]', NULL, '2021-12-20 05:56:06', '2021-12-20 05:56:06'),
+(93, 'App\\Models\\User', 11, 'usertoken', '09ab7b0a1371f5f93387912c3e277cdc18dce6eedf3ffdc61cba88a5f92f0b50', '[\"*\"]', NULL, '2021-12-20 05:56:19', '2021-12-20 05:56:19'),
+(94, 'App\\Models\\User', 1, 'usertoken', '13edbf747695ab9055d0890c1d723e51a7c38178c50ec5256a12ba3c92f48334', '[\"*\"]', NULL, '2021-12-20 05:58:32', '2021-12-20 05:58:32'),
+(95, 'App\\Models\\User', 1, 'usertoken', '963c21b4c641c37e14fb354fae6603a0b1d05fb2c4c718fae6709c70b80e8e89', '[\"*\"]', NULL, '2021-12-20 06:01:08', '2021-12-20 06:01:08'),
+(96, 'App\\Models\\User', 12, 'usertoken', '1d007b8167d179362b9e4f0f2b846fadbc2d537e28e53024e22398d18b908df4', '[\"*\"]', NULL, '2021-12-20 06:03:04', '2021-12-20 06:03:04'),
+(97, 'App\\Models\\User', 12, 'usertoken', 'a8ad5a904d61127664714bf505d91bbc2ad559b9b56b9ab11ec31db8c46c45c2', '[\"*\"]', NULL, '2021-12-20 06:04:21', '2021-12-20 06:04:21'),
+(98, 'App\\Models\\User', 1, 'usertoken', '7df5503ed581c898e26ac91366f9d526b8f5d03dfe611aeac9579ee3a7d78a3c', '[\"*\"]', NULL, '2021-12-20 06:07:33', '2021-12-20 06:07:33'),
+(99, 'App\\Models\\User', 1, 'usertoken', '09a917171c69e2618139f96bff382584c6fa6b0cb082d3fafa744fcd4cdefe1b', '[\"*\"]', NULL, '2021-12-20 06:09:54', '2021-12-20 06:09:54'),
+(100, 'App\\Models\\User', 1, 'usertoken', '17a31e810c68a9d57044a97e330255292572c321807cf4ed2c4e12a94161b8eb', '[\"*\"]', NULL, '2021-12-20 06:19:18', '2021-12-20 06:19:18'),
+(101, 'App\\Models\\User', 1, 'usertoken', '76d3dd46525596af848e96e057c39f53aa8895f021c1380a5d02dbe1f57e7d8c', '[\"*\"]', NULL, '2021-12-20 06:26:16', '2021-12-20 06:26:16'),
+(102, 'App\\Models\\User', 1, 'usertoken', '729f92cbcc828bb29dcc99c011b94e36b38bb1d3f276685394789629252b17c1', '[\"*\"]', NULL, '2021-12-20 06:53:32', '2021-12-20 06:53:32'),
+(103, 'App\\Models\\User', 1, 'usertoken', '16941a1c3d735bc12ecf48c66a70acb094de989af493a918d07f15e5204b13b0', '[\"*\"]', NULL, '2021-12-20 07:25:18', '2021-12-20 07:25:18'),
+(104, 'App\\Models\\User', 1, 'usertoken', 'a8ca3e7bf961ab75ed45eab5500b5192d9e476b9382cc081e6a57a4b48c15e5e', '[\"*\"]', NULL, '2021-12-20 07:26:49', '2021-12-20 07:26:49'),
+(105, 'App\\Models\\User', 1, 'usertoken', 'cd6ca1bac6442eca4fa7317a5798da04ac7698003607294972e31dcca15e0a32', '[\"*\"]', NULL, '2021-12-20 07:29:10', '2021-12-20 07:29:10'),
+(106, 'App\\Models\\User', 1, 'usertoken', '72a62cea65f6269592a5fd1030eaa89047d7a3516a2dad092e59e02db7e825db', '[\"*\"]', NULL, '2021-12-20 07:30:20', '2021-12-20 07:30:20'),
+(107, 'App\\Models\\User', 1, 'usertoken', '0367810121abb0daa0f2bbc9af79e395bd1f8f484fe9cbe1165369fa22bb94b3', '[\"*\"]', NULL, '2021-12-20 07:30:58', '2021-12-20 07:30:58'),
+(108, 'App\\Models\\User', 1, 'usertoken', '97c460d67422e75706bf0dec8250cd1ac61b04ef690df652245e22c5651585c8', '[\"*\"]', NULL, '2021-12-20 07:31:12', '2021-12-20 07:31:12'),
+(109, 'App\\Models\\User', 1, 'usertoken', '83827e6f65503eaee37d2ebf036b0cc11fd1a914e85b0660ae22267fa59a9e0a', '[\"*\"]', NULL, '2021-12-20 18:20:36', '2021-12-20 18:20:36'),
+(110, 'App\\Models\\User', 1, 'usertoken', '89b2deb8a456d0e11d9fc4d3ffa02f40ce33bc51a06ad8a7f1e10f1f733d49aa', '[\"*\"]', NULL, '2021-12-20 19:17:32', '2021-12-20 19:17:32'),
+(111, 'App\\Models\\User', 1, 'usertoken', '7e582933e118dc2e7feceec85377f891788142e51458c823edd68e5b41fee97d', '[\"*\"]', NULL, '2021-12-20 20:06:29', '2021-12-20 20:06:29'),
+(112, 'App\\Models\\User', 1, 'usertoken', '3bcc53bc4e5a7aa0fe295099e1037f6dda759745faaa1460c6e7623a9c21f0cb', '[\"*\"]', NULL, '2021-12-20 20:07:44', '2021-12-20 20:07:44'),
+(113, 'App\\Models\\User', 1, 'usertoken', '3876be1b2a2f826dbc7731c6b98101bf8fa2f14b83686799acf19cafaea5a07d', '[\"*\"]', NULL, '2021-12-20 20:08:20', '2021-12-20 20:08:20'),
+(114, 'App\\Models\\User', 1, 'usertoken', '098f08d7edf0341295fb715b34c4c425925c3640c2cd579d7ec3da6927e9241a', '[\"*\"]', NULL, '2021-12-20 20:10:51', '2021-12-20 20:10:51'),
+(115, 'App\\Models\\User', 1, 'usertoken', '3474b9eed12d589cb02408930b65ca47ba3dc07b6a0c7ea68c8a59460761be3f', '[\"*\"]', NULL, '2021-12-20 22:44:21', '2021-12-20 22:44:21'),
+(116, 'App\\Models\\User', 1, 'usertoken', '53f8aedf50a58331cc825641307a094c47579e057366b3401bbb4f91058c1abe', '[\"*\"]', NULL, '2021-12-20 22:51:07', '2021-12-20 22:51:07'),
+(117, 'App\\Models\\User', 1, 'usertoken', '86248fb50b82b2e2124db38d904caf9b31b41b1210029da527a7526966db0c68', '[\"*\"]', NULL, '2021-12-20 23:35:31', '2021-12-20 23:35:31'),
+(118, 'App\\Models\\User', 1, 'usertoken', 'e702637d390400fa001f6274bf18e50062d525c8bff8d68f5bc1aef1445c6db3', '[\"*\"]', NULL, '2021-12-20 23:40:09', '2021-12-20 23:40:09'),
+(119, 'App\\Models\\User', 1, 'usertoken', '4a42edd4481045e13b92a94fc08bd7012a5939e14eec6ac4d2c4f320bb1edba1', '[\"*\"]', NULL, '2021-12-21 00:19:22', '2021-12-21 00:19:22'),
+(120, 'App\\Models\\User', 1, 'usertoken', 'ae7860fc0ac307c4ccf5a7d75cb27d2967fa1024bee81a7f2eb9ef9d953f9557', '[\"*\"]', NULL, '2021-12-21 00:20:21', '2021-12-21 00:20:21'),
+(121, 'App\\Models\\User', 1, 'usertoken', 'a4033a8bbc60304d9854500c123922fc3629e43b366d8e3c5e59105829546ed9', '[\"*\"]', NULL, '2021-12-21 00:20:24', '2021-12-21 00:20:24'),
+(122, 'App\\Models\\User', 1, 'usertoken', '40dc6949bfea699c72222024e37824aa21acab054912fda17731cd8dd2ccf083', '[\"*\"]', NULL, '2021-12-21 00:22:39', '2021-12-21 00:22:39'),
+(123, 'App\\Models\\User', 1, 'usertoken', '6a49d9343347665b264e5aee43464b36e1207a4f9743b08b743917a98174c8b0', '[\"*\"]', NULL, '2021-12-21 00:24:28', '2021-12-21 00:24:28'),
+(124, 'App\\Models\\User', 1, 'usertoken', 'f86ac90685be541f6e1d7607e5e65e4a87c4350b6638ae5e6401e8cdb965e038', '[\"*\"]', NULL, '2021-12-21 00:29:11', '2021-12-21 00:29:11'),
+(125, 'App\\Models\\User', 1, 'usertoken', '44a14bc5022317fdcc267731fba567728f5b383bc807bffc0814f7330374222a', '[\"*\"]', NULL, '2021-12-21 00:29:55', '2021-12-21 00:29:55'),
+(126, 'App\\Models\\User', 1, 'usertoken', '02c6037ed556876b9839901b625a6fa721db1b9ccf68de209b27e1fec8a9debd', '[\"*\"]', NULL, '2021-12-21 01:26:20', '2021-12-21 01:26:20'),
+(127, 'App\\Models\\User', 1, 'usertoken', '711cfe9df44bc4418b0936bd35b1fae242eb75d3546ade49cc6c0b34c77c2318', '[\"*\"]', NULL, '2021-12-22 01:50:09', '2021-12-22 01:50:09'),
+(128, 'App\\Models\\User', 1, 'usertoken', 'fb59c5de565c02eff3fb1311dd9a920efc0f7f843aaed152133c5e4b8d6bed86', '[\"*\"]', NULL, '2021-12-22 01:53:44', '2021-12-22 01:53:44'),
+(129, 'App\\Models\\User', 1, 'usertoken', 'f9d82209b3fbe165ac679aa07c397557eb7b80ca23c63d20a09854fe33d95651', '[\"*\"]', NULL, '2021-12-22 01:57:36', '2021-12-22 01:57:36'),
+(130, 'App\\Models\\User', 13, 'usertoken', 'd262622a316d96b3780b3f52b570eea86a1b62c7371526bfe48d3b4812052a7b', '[\"*\"]', NULL, '2021-12-22 02:00:54', '2021-12-22 02:00:54'),
+(131, 'App\\Models\\User', 1, 'usertoken', 'b045aa80168a5e282d0e618ded45eeb678899a5dbe12c3f4eecf9a174bd27c91', '[\"*\"]', NULL, '2021-12-22 02:04:22', '2021-12-22 02:04:22'),
+(132, 'App\\Models\\User', 14, 'usertoken', '0c32e10f811939562e3ec3a2aefb8d0e39183b04739e7ecc60ddc5a7367e3e7d', '[\"*\"]', NULL, '2021-12-22 02:07:32', '2021-12-22 02:07:32'),
+(133, 'App\\Models\\User', 1, 'usertoken', 'c20b28a0b88070c41865f132c41b922845195aaad5782d72fea31341c6d9bc63', '[\"*\"]', NULL, '2021-12-22 02:13:31', '2021-12-22 02:13:31'),
+(134, 'App\\Models\\User', 1, 'usertoken', '2096ca9e1280aa5a8a02ec731b7ad92500f57a2ce17593f8047938c59df6963c', '[\"*\"]', NULL, '2021-12-22 02:15:47', '2021-12-22 02:15:47'),
+(135, 'App\\Models\\User', 1, 'usertoken', '237ac99ae9f07d909afb435d123520ed44dc5b27464f3525da5e1875a35b866a', '[\"*\"]', NULL, '2021-12-22 04:29:15', '2021-12-22 04:29:15'),
+(136, 'App\\Models\\User', 1, 'usertoken', '8bb4d91dd514e84db3dbdfeea1a7843680bb0aa1902e7e75c6c07156c6f7a007', '[\"*\"]', NULL, '2021-12-22 16:15:26', '2021-12-22 16:15:26'),
+(137, 'App\\Models\\User', 1, 'usertoken', '3f296a0ab1bbcd15d1a0d9588136ff1c1ccd128c805146b4d6bf6d529c670375', '[\"*\"]', NULL, '2021-12-22 16:15:30', '2021-12-22 16:15:30'),
+(138, 'App\\Models\\User', 1, 'usertoken', '2f0e64ef7a15b64e8baf67c8f279c478487ce18ff42e4fa98eb9dde5476977a5', '[\"*\"]', NULL, '2021-12-22 16:17:57', '2021-12-22 16:17:57');
 
 -- --------------------------------------------------------
 
@@ -191,17 +249,6 @@ CREATE TABLE `transaksi` (
   `keterangan` text DEFAULT NULL,
   `user_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `transaksi`
---
-
-INSERT INTO `transaksi` (`id`, `tgl_transaksi`, `pemasukan`, `pengeluaran`, `keterangan`, `user_id`) VALUES
-(37, '2021-09-17', 5000000, 0, 'Modal usaha', 1),
-(38, '2021-10-01', 0, 4500000, 'Belanja kebutuhan warung', 1),
-(39, '2021-10-01', 0, 30000, 'Ongkos', 1),
-(40, '2021-11-19', 50000, 0, 'Laba', 1),
-(41, '2021-11-20', 135000, 0, 'Laba', 1);
 
 -- --------------------------------------------------------
 
@@ -290,19 +337,19 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `personal_access_tokens`
 --
 ALTER TABLE `personal_access_tokens`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=139;
 
 --
 -- AUTO_INCREMENT for table `transaksi`
 --
 ALTER TABLE `transaksi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
